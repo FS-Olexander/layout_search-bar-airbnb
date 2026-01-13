@@ -38,7 +38,7 @@ body {
   background-size: 19px 19px;
 }
 
-.search input.search__input--big {
+.search__input--big {
   letter-spacing: 0;
   color: #687c94;
   height: 70px;
@@ -48,7 +48,7 @@ body {
   font-size: 16px;
 }
 
-.search input.search__input--small {
+.search__input--small {
   letter-spacing: 0;
   color: #687c94;
   background-position: 13px;
@@ -58,15 +58,15 @@ body {
   font-size: 14px;
 }
 
-.search input::placeholder {
+.search__input::placeholder {
   color: #3d4e61;
 }
 
-.search input:hover {
+.search__input:hover {
   box-shadow: 0 3px 4px rgb(182, 82, 82, 0.25);
 }
 
-.search input:focus {
+.search__input:focus {
   outline: none;
   box-shadow: 0 4px 4px rgb(0, 0, 0, 0.25);
   background-color: #f6f6f6;
